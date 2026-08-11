@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = "https://intelens-backend.onrender.com/api";
 
 function getToken() {
   return localStorage.getItem("verbatim_token");
