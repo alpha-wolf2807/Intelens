@@ -34,10 +34,6 @@ export default function AdminLayout() {
             <span className="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors">database</span>
             <span className="font-body-md text-body-md">Phrase Database</span>
           </NavLink>
-          <NavLink to="/admin/bulk-upload" className={linkClass}>
-            <span className="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors">cloud_upload</span>
-            <span className="font-body-md text-body-md">Bulk Upload</span>
-          </NavLink>
           <NavLink to="/admin/users" className={linkClass}>
             <span className="material-symbols-outlined text-[20px] group-hover:text-primary transition-colors">group</span>
             <span className="font-body-md text-body-md">User Management</span>

@@ -9,7 +9,6 @@ import Results from "./pages/app/Results.jsx";
 
 import AdminLayout from "./pages/admin/AdminLayout.jsx";
 import PhraseDatabase from "./pages/admin/PhraseDatabase.jsx";
-import BulkUpload from "./pages/admin/BulkUpload.jsx";
 import UserManagement from "./pages/admin/UserManagement.jsx";
 import AuditLog from "./pages/admin/AuditLog.jsx";
 
@@ -45,7 +44,6 @@ export default function App() {
       >
         <Route index element={<Navigate to="phrases" replace />} />
         <Route path="phrases" element={<PhraseDatabase />} />
-        <Route path="bulk-upload" element={<BulkUpload />} />
         <Route path="users" element={<UserManagement />} />
         <Route path="audit-log" element={<AuditLog />} />
       </Route>
